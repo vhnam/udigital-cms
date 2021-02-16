@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "name": "Service",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "key": {
+      "type": "string"
+    },
+    "Heading": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.heading"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.description"
+    }
+  }
+}

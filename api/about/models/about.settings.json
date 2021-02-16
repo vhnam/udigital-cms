@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "name": "About",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "biography_en": {
+      "type": "richtext"
+    },
+    "biography_vi": {
+      "type": "richtext"
+    },
+    "biography_zhTW": {
+      "type": "richtext"
+    }
+  }
+}

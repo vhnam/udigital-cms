@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_descriptions",
+  "info": {
+    "name": "Description",
+    "icon": "book-open"
+  },
+  "options": {},
+  "attributes": {
+    "description_en": {
+      "type": "richtext"
+    },
+    "description_vi": {
+      "type": "richtext"
+    },
+    "description_zhTW": {
+      "type": "richtext"
+    }
+  }
+}

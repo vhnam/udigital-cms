@@ -1,0 +1,40 @@
+{
+  "kind": "collectionType",
+  "collectionName": "reviews",
+  "info": {
+    "name": "Review"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Author": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.author"
+    },
+    "Title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.title"
+    },
+    "Description": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.description"
+    },
+    "Avatar": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

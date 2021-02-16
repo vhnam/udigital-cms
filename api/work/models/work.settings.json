@@ -1,0 +1,35 @@
+{
+  "kind": "collectionType",
+  "collectionName": "works",
+  "info": {
+    "name": "Work"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "Category": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.category"
+    },
+    "Project": {
+      "type": "component",
+      "repeatable": false,
+      "component": "i18n.project"
+    },
+    "Image": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

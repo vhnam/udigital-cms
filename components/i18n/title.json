@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_titles",
+  "info": {
+    "name": "Title",
+    "icon": "book-reader"
+  },
+  "options": {},
+  "attributes": {
+    "title_en": {
+      "type": "string"
+    },
+    "title_vi": {
+      "type": "string"
+    },
+    "title_zhTW": {
+      "type": "string"
+    }
+  }
+}

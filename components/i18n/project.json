@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_projects",
+  "info": {
+    "name": "Project",
+    "icon": "bookmark"
+  },
+  "options": {},
+  "attributes": {
+    "project_en": {
+      "type": "string"
+    },
+    "project_vi": {
+      "type": "string"
+    },
+    "project_zhTW": {
+      "type": "string"
+    }
+  }
+}

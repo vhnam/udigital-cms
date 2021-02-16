@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_categories",
+  "info": {
+    "name": "Category",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "category_en": {
+      "type": "string"
+    },
+    "category_vi": {
+      "type": "string"
+    },
+    "category_zhTW": {
+      "type": "string"
+    }
+  }
+}

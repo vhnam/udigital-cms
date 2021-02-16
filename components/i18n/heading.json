@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_i18n_headings",
+  "info": {
+    "name": "Heading",
+    "icon": "book"
+  },
+  "options": {},
+  "attributes": {
+    "heading_en": {
+      "type": "string"
+    },
+    "heading_vi": {
+      "type": "string"
+    },
+    "heading_zhTW": {
+      "type": "string"
+    }
+  }
+}
